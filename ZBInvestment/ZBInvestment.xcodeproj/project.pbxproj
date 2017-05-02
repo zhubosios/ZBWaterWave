@@ -15,6 +15,13 @@
 		911B59601EB864B800F37DE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 911B595E1EB864B800F37DE2 /* LaunchScreen.storyboard */; };
 		911B596B1EB864B800F37DE2 /* ZBInvestmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 911B596A1EB864B800F37DE2 /* ZBInvestmentTests.m */; };
 		911B59761EB864B800F37DE2 /* ZBInvestmentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 911B59751EB864B800F37DE2 /* ZBInvestmentUITests.m */; };
+		911B59CF1EB867C800F37DE2 /* WFHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 911B59CE1EB867C800F37DE2 /* WFHomeModel.m */; };
+		911B59D91EB8682400F37DE2 /* WFHomeTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 911B59D21EB8682400F37DE2 /* WFHomeTableHeaderView.m */; };
+		911B59DA1EB8682400F37DE2 /* WFHomeTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 911B59D31EB8682400F37DE2 /* WFHomeTableHeaderView.xib */; };
+		911B59DB1EB8682400F37DE2 /* WFHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 911B59D51EB8682400F37DE2 /* WFHomeTableViewCell.m */; };
+		911B59DC1EB8682400F37DE2 /* WFHomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 911B59D61EB8682400F37DE2 /* WFHomeTableViewCell.xib */; };
+		911B59DD1EB8682400F37DE2 /* WFProportionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 911B59D81EB8682400F37DE2 /* WFProportionView.m */; };
+		911B59E01EB8692400F37DE2 /* KYWaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 911B59DF1EB8692400F37DE2 /* KYWaterWaveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,19 @@
 		911B59711EB864B800F37DE2 /* ZBInvestmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZBInvestmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		911B59751EB864B800F37DE2 /* ZBInvestmentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBInvestmentUITests.m; sourceTree = "<group>"; };
 		911B59771EB864B800F37DE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		911B59CD1EB867C800F37DE2 /* WFHomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFHomeModel.h; sourceTree = "<group>"; };
+		911B59CE1EB867C800F37DE2 /* WFHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFHomeModel.m; sourceTree = "<group>"; };
+		911B59D11EB8682400F37DE2 /* WFHomeTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFHomeTableHeaderView.h; sourceTree = "<group>"; };
+		911B59D21EB8682400F37DE2 /* WFHomeTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFHomeTableHeaderView.m; sourceTree = "<group>"; };
+		911B59D31EB8682400F37DE2 /* WFHomeTableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WFHomeTableHeaderView.xib; sourceTree = "<group>"; };
+		911B59D41EB8682400F37DE2 /* WFHomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFHomeTableViewCell.h; sourceTree = "<group>"; };
+		911B59D51EB8682400F37DE2 /* WFHomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFHomeTableViewCell.m; sourceTree = "<group>"; };
+		911B59D61EB8682400F37DE2 /* WFHomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WFHomeTableViewCell.xib; sourceTree = "<group>"; };
+		911B59D71EB8682400F37DE2 /* WFProportionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFProportionView.h; sourceTree = "<group>"; };
+		911B59D81EB8682400F37DE2 /* WFProportionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFProportionView.m; sourceTree = "<group>"; };
+		911B59DE1EB8692400F37DE2 /* KYWaterWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KYWaterWaveView.h; sourceTree = "<group>"; };
+		911B59DF1EB8692400F37DE2 /* KYWaterWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KYWaterWaveView.m; sourceTree = "<group>"; };
+		911B59E11EB8698600F37DE2 /* wfdefine.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = wfdefine.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +129,8 @@
 				911B595C1EB864B800F37DE2 /* Assets.xcassets */,
 				911B595E1EB864B800F37DE2 /* LaunchScreen.storyboard */,
 				911B59611EB864B800F37DE2 /* Info.plist */,
+				911B59CC1EB867BC00F37DE2 /* Model */,
+				911B59D01EB8681A00F37DE2 /* View */,
 				911B59501EB864B800F37DE2 /* Supporting Files */,
 			);
 			path = ZBInvestment;
@@ -118,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				911B59511EB864B800F37DE2 /* main.m */,
+				911B59E11EB8698600F37DE2 /* wfdefine.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +161,32 @@
 				911B59771EB864B800F37DE2 /* Info.plist */,
 			);
 			path = ZBInvestmentUITests;
+			sourceTree = "<group>";
+		};
+		911B59CC1EB867BC00F37DE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				911B59CD1EB867C800F37DE2 /* WFHomeModel.h */,
+				911B59CE1EB867C800F37DE2 /* WFHomeModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		911B59D01EB8681A00F37DE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				911B59D11EB8682400F37DE2 /* WFHomeTableHeaderView.h */,
+				911B59D21EB8682400F37DE2 /* WFHomeTableHeaderView.m */,
+				911B59D31EB8682400F37DE2 /* WFHomeTableHeaderView.xib */,
+				911B59D41EB8682400F37DE2 /* WFHomeTableViewCell.h */,
+				911B59D51EB8682400F37DE2 /* WFHomeTableViewCell.m */,
+				911B59D61EB8682400F37DE2 /* WFHomeTableViewCell.xib */,
+				911B59D71EB8682400F37DE2 /* WFProportionView.h */,
+				911B59D81EB8682400F37DE2 /* WFProportionView.m */,
+				911B59DE1EB8692400F37DE2 /* KYWaterWaveView.h */,
+				911B59DF1EB8692400F37DE2 /* KYWaterWaveView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,6 +295,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				911B59DC1EB8682400F37DE2 /* WFHomeTableViewCell.xib in Resources */,
+				911B59DA1EB8682400F37DE2 /* WFHomeTableHeaderView.xib in Resources */,
 				911B59601EB864B800F37DE2 /* LaunchScreen.storyboard in Resources */,
 				911B595D1EB864B800F37DE2 /* Assets.xcassets in Resources */,
 				911B595B1EB864B800F37DE2 /* Main.storyboard in Resources */,
@@ -274,8 +325,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				911B59581EB864B800F37DE2 /* ViewController.m in Sources */,
+				911B59DB1EB8682400F37DE2 /* WFHomeTableViewCell.m in Sources */,
+				911B59D91EB8682400F37DE2 /* WFHomeTableHeaderView.m in Sources */,
 				911B59551EB864B800F37DE2 /* AppDelegate.m in Sources */,
+				911B59CF1EB867C800F37DE2 /* WFHomeModel.m in Sources */,
+				911B59DD1EB8682400F37DE2 /* WFProportionView.m in Sources */,
 				911B59521EB864B800F37DE2 /* main.m in Sources */,
+				911B59E01EB8692400F37DE2 /* KYWaterWaveView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +478,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZBInvestment/wfdefine.pch";
 				INFOPLIST_FILE = ZBInvestment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhubo.ZBInvestment;
@@ -433,6 +491,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_INPUT_FILETYPE = automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ZBInvestment/wfdefine.pch";
 				INFOPLIST_FILE = ZBInvestment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhubo.ZBInvestment;
@@ -505,6 +565,7 @@
 				911B597C1EB864B800F37DE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		911B597D1EB864B800F37DE2 /* Build configuration list for PBXNativeTarget "ZBInvestmentTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +574,7 @@
 				911B597F1EB864B800F37DE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		911B59801EB864B800F37DE2 /* Build configuration list for PBXNativeTarget "ZBInvestmentUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +583,7 @@
 				911B59821EB864B800F37DE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
