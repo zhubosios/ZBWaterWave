@@ -1,7 +1,2 @@
-# ZBWaterView
-@property (nonatomic, assign) CGFloat waveSpeed;
-@property (nonatomic, assign) CGFloat waveAmplitude;
-@property (nonatomic, strong) UIColor   *waveColor;
+# 这是一个水纹波动效果的自定义视图
 
-- (void)wave;
-- (void)stop;
