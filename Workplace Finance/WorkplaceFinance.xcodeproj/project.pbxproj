@@ -1,0 +1,879 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		426A6BC0CDE460E4F10C6C2E /* libPods-WorkplaceFinance.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DDF35B74980F5A96282D7CF /* libPods-WorkplaceFinance.a */; };
+		9107CCAB1EAF57FC00374B56 /* WFHomeTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9107CCAA1EAF57FC00374B56 /* WFHomeTableHeaderView.xib */; };
+		914294761E9CDB4100938BC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 914294751E9CDB4100938BC4 /* main.m */; };
+		914294811E9CDB4100938BC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 914294801E9CDB4100938BC4 /* Assets.xcassets */; };
+		914294841E9CDB4100938BC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914294821E9CDB4100938BC4 /* LaunchScreen.storyboard */; };
+		9142948F1E9CDB4100938BC4 /* Workplace_FinanceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9142948E1E9CDB4100938BC4 /* Workplace_FinanceTests.m */; };
+		9142949A1E9CDB4100938BC4 /* Workplace_FinanceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 914294991E9CDB4100938BC4 /* Workplace_FinanceUITests.m */; };
+		9162FD141EAEF26900DF0E8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9162FD061EAEF26900DF0E8A /* AppDelegate.m */; };
+		9162FD151EAEF26900DF0E8A /* WFHomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9162FD091EAEF26900DF0E8A /* WFHomeController.m */; };
+		9162FD161EAEF26900DF0E8A /* TwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9162FD0B1EAEF26900DF0E8A /* TwoController.m */; };
+		9162FD171EAEF26900DF0E8A /* ZMRootNavgationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9162FD0D1EAEF26900DF0E8A /* ZMRootNavgationController.m */; };
+		9162FD1B1EAEF72300DF0E8A /* WFHomeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9162FD191EAEF72300DF0E8A /* WFHomeTableViewCell.m */; };
+		9162FD1C1EAEF72300DF0E8A /* WFHomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9162FD1A1EAEF72300DF0E8A /* WFHomeTableViewCell.xib */; };
+		9162FD1F1EAEF75000DF0E8A /* WFHomeTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9162FD1E1EAEF75000DF0E8A /* WFHomeTableHeaderView.m */; };
+		9162FD291EAF175900DF0E8A /* UIView+WFFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 9162FD281EAF175900DF0E8A /* UIView+WFFrame.m */; };
+		9162FD2C1EAF204A00DF0E8A /* WFProportionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9162FD2B1EAF204A00DF0E8A /* WFProportionView.m */; };
+		9162FD2F1EAF216500DF0E8A /* WFHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9162FD2E1EAF216500DF0E8A /* WFHomeModel.m */; };
+		91D392C91EB04FE5009DA352 /* UIColor+WFColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D392C81EB04FE5009DA352 /* UIColor+WFColor.m */; };
+		91D392CC1EB062E7009DA352 /* UIFont+WFFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D392CB1EB062E7009DA352 /* UIFont+WFFont.m */; };
+		91D392CF1EB08541009DA352 /* WFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D392CE1EB08541009DA352 /* WFTabBarController.m */; };
+		91D392D21EB08720009DA352 /* WFSafeGuaController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D392D11EB08720009DA352 /* WFSafeGuaController.m */; };
+		91D392D51EB08742009DA352 /* WFMyAccountController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91D392D41EB08742009DA352 /* WFMyAccountController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9142948B1E9CDB4100938BC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 914294691E9CDB4100938BC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 914294701E9CDB4100938BC4;
+			remoteInfo = "Workplace Finance";
+		};
+		914294961E9CDB4100938BC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 914294691E9CDB4100938BC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 914294701E9CDB4100938BC4;
+			remoteInfo = "Workplace Finance";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7FCE1AAA58885903573041CE /* Pods-WorkplaceFinance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkplaceFinance.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WorkplaceFinance/Pods-WorkplaceFinance.debug.xcconfig"; sourceTree = "<group>"; };
+		8DDF35B74980F5A96282D7CF /* libPods-WorkplaceFinance.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WorkplaceFinance.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9107CCAA1EAF57FC00374B56 /* WFHomeTableHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WFHomeTableHeaderView.xib; sourceTree = "<group>"; };
+		914294711E9CDB4100938BC4 /* 职钱.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "职钱.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		914294751E9CDB4100938BC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		914294801E9CDB4100938BC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		914294831E9CDB4100938BC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		914294851E9CDB4100938BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9142948A1E9CDB4100938BC4 /* WorkplaceFinanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkplaceFinanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9142948E1E9CDB4100938BC4 /* Workplace_FinanceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Workplace_FinanceTests.m; sourceTree = "<group>"; };
+		914294901E9CDB4100938BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		914294951E9CDB4100938BC4 /* WorkplaceFinanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorkplaceFinanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		914294991E9CDB4100938BC4 /* Workplace_FinanceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Workplace_FinanceUITests.m; sourceTree = "<group>"; };
+		9142949B1E9CDB4100938BC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9162FD051EAEF26900DF0E8A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9162FD061EAEF26900DF0E8A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9162FD081EAEF26900DF0E8A /* WFHomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WFHomeController.h; path = ../../Other/Controllers/WFHomeController.h; sourceTree = "<group>"; };
+		9162FD091EAEF26900DF0E8A /* WFHomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WFHomeController.m; path = ../../Other/Controllers/WFHomeController.m; sourceTree = "<group>"; };
+		9162FD0A1EAEF26900DF0E8A /* TwoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TwoController.h; path = ../../Other/Controllers/TwoController.h; sourceTree = "<group>"; };
+		9162FD0B1EAEF26900DF0E8A /* TwoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TwoController.m; path = ../../Other/Controllers/TwoController.m; sourceTree = "<group>"; };
+		9162FD0C1EAEF26900DF0E8A /* ZMRootNavgationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZMRootNavgationController.h; sourceTree = "<group>"; };
+		9162FD0D1EAEF26900DF0E8A /* ZMRootNavgationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZMRootNavgationController.m; sourceTree = "<group>"; };
+		9162FD181EAEF72300DF0E8A /* WFHomeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFHomeTableViewCell.h; sourceTree = "<group>"; };
+		9162FD191EAEF72300DF0E8A /* WFHomeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFHomeTableViewCell.m; sourceTree = "<group>"; };
+		9162FD1A1EAEF72300DF0E8A /* WFHomeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WFHomeTableViewCell.xib; sourceTree = "<group>"; };
+		9162FD1D1EAEF75000DF0E8A /* WFHomeTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFHomeTableHeaderView.h; sourceTree = "<group>"; };
+		9162FD1E1EAEF75000DF0E8A /* WFHomeTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFHomeTableHeaderView.m; sourceTree = "<group>"; };
+		9162FD231EAEFBAF00DF0E8A /* WF-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WF-Prefix.pch"; sourceTree = "<group>"; };
+		9162FD251EAEFC7400DF0E8A /* WFConfiginfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WFConfiginfo.h; sourceTree = "<group>"; };
+		9162FD271EAF175900DF0E8A /* UIView+WFFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WFFrame.h"; sourceTree = "<group>"; };
+		9162FD281EAF175900DF0E8A /* UIView+WFFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WFFrame.m"; sourceTree = "<group>"; };
+		9162FD2A1EAF204A00DF0E8A /* WFProportionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFProportionView.h; sourceTree = "<group>"; };
+		9162FD2B1EAF204A00DF0E8A /* WFProportionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFProportionView.m; sourceTree = "<group>"; };
+		9162FD2D1EAF216500DF0E8A /* WFHomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFHomeModel.h; sourceTree = "<group>"; };
+		9162FD2E1EAF216500DF0E8A /* WFHomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFHomeModel.m; sourceTree = "<group>"; };
+		91D392C71EB04FE5009DA352 /* UIColor+WFColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+WFColor.h"; sourceTree = "<group>"; };
+		91D392C81EB04FE5009DA352 /* UIColor+WFColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+WFColor.m"; sourceTree = "<group>"; };
+		91D392CA1EB062E7009DA352 /* UIFont+WFFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+WFFont.h"; sourceTree = "<group>"; };
+		91D392CB1EB062E7009DA352 /* UIFont+WFFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+WFFont.m"; sourceTree = "<group>"; };
+		91D392CD1EB08541009DA352 /* WFTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFTabBarController.h; sourceTree = "<group>"; };
+		91D392CE1EB08541009DA352 /* WFTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFTabBarController.m; sourceTree = "<group>"; };
+		91D392D01EB08720009DA352 /* WFSafeGuaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFSafeGuaController.h; sourceTree = "<group>"; };
+		91D392D11EB08720009DA352 /* WFSafeGuaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFSafeGuaController.m; sourceTree = "<group>"; };
+		91D392D31EB08742009DA352 /* WFMyAccountController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFMyAccountController.h; sourceTree = "<group>"; };
+		91D392D41EB08742009DA352 /* WFMyAccountController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFMyAccountController.m; sourceTree = "<group>"; };
+		B5590348A776640B8C3A8952 /* Pods-WorkplaceFinance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorkplaceFinance.release.xcconfig"; path = "Pods/Target Support Files/Pods-WorkplaceFinance/Pods-WorkplaceFinance.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9142946E1E9CDB4100938BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				426A6BC0CDE460E4F10C6C2E /* libPods-WorkplaceFinance.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914294871E9CDB4100938BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914294921E9CDB4100938BC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7854EF5088D2888B28F4A8F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DDF35B74980F5A96282D7CF /* libPods-WorkplaceFinance.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		914294681E9CDB4100938BC4 = {
+			isa = PBXGroup;
+			children = (
+				914294731E9CDB4100938BC4 /* Workplace Finance */,
+				9142948D1E9CDB4100938BC4 /* Workplace FinanceTests */,
+				914294981E9CDB4100938BC4 /* Workplace FinanceUITests */,
+				914294721E9CDB4100938BC4 /* Products */,
+				A5F185ABB431BC8814CB8D30 /* Pods */,
+				7854EF5088D2888B28F4A8F7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		914294721E9CDB4100938BC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				914294711E9CDB4100938BC4 /* 职钱.app */,
+				9142948A1E9CDB4100938BC4 /* WorkplaceFinanceTests.xctest */,
+				914294951E9CDB4100938BC4 /* WorkplaceFinanceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		914294731E9CDB4100938BC4 /* Workplace Finance */ = {
+			isa = PBXGroup;
+			children = (
+				9162FCFC1EAEF26900DF0E8A /* Home */,
+				9162FD001EAEF26900DF0E8A /* MyAccount */,
+				9162FD101EAEF26900DF0E8A /* SafetyGuarantee */,
+				9162FD041EAEF26900DF0E8A /* Other */,
+				9162FD241EAEFC3300DF0E8A /* Config */,
+				914294741E9CDB4100938BC4 /* Supporting Files */,
+			);
+			path = "Workplace Finance";
+			sourceTree = "<group>";
+		};
+		914294741E9CDB4100938BC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9162FD231EAEFBAF00DF0E8A /* WF-Prefix.pch */,
+				914294801E9CDB4100938BC4 /* Assets.xcassets */,
+				914294821E9CDB4100938BC4 /* LaunchScreen.storyboard */,
+				914294851E9CDB4100938BC4 /* Info.plist */,
+				914294751E9CDB4100938BC4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9142948D1E9CDB4100938BC4 /* Workplace FinanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				9142948E1E9CDB4100938BC4 /* Workplace_FinanceTests.m */,
+				914294901E9CDB4100938BC4 /* Info.plist */,
+			);
+			path = "Workplace FinanceTests";
+			sourceTree = "<group>";
+		};
+		914294981E9CDB4100938BC4 /* Workplace FinanceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				914294991E9CDB4100938BC4 /* Workplace_FinanceUITests.m */,
+				9142949B1E9CDB4100938BC4 /* Info.plist */,
+			);
+			path = "Workplace FinanceUITests";
+			sourceTree = "<group>";
+		};
+		9162FCFC1EAEF26900DF0E8A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				9162FCFD1EAEF26900DF0E8A /* Controllers */,
+				9162FCFE1EAEF26900DF0E8A /* Model */,
+				9162FCFF1EAEF26900DF0E8A /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		9162FCFD1EAEF26900DF0E8A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9162FD081EAEF26900DF0E8A /* WFHomeController.h */,
+				9162FD091EAEF26900DF0E8A /* WFHomeController.m */,
+				9162FD0A1EAEF26900DF0E8A /* TwoController.h */,
+				9162FD0B1EAEF26900DF0E8A /* TwoController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9162FCFE1EAEF26900DF0E8A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9162FD2D1EAF216500DF0E8A /* WFHomeModel.h */,
+				9162FD2E1EAF216500DF0E8A /* WFHomeModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9162FCFF1EAEF26900DF0E8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9162FD181EAEF72300DF0E8A /* WFHomeTableViewCell.h */,
+				9162FD191EAEF72300DF0E8A /* WFHomeTableViewCell.m */,
+				9162FD1A1EAEF72300DF0E8A /* WFHomeTableViewCell.xib */,
+				9162FD1D1EAEF75000DF0E8A /* WFHomeTableHeaderView.h */,
+				9162FD1E1EAEF75000DF0E8A /* WFHomeTableHeaderView.m */,
+				9107CCAA1EAF57FC00374B56 /* WFHomeTableHeaderView.xib */,
+				9162FD2A1EAF204A00DF0E8A /* WFProportionView.h */,
+				9162FD2B1EAF204A00DF0E8A /* WFProportionView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9162FD001EAEF26900DF0E8A /* MyAccount */ = {
+			isa = PBXGroup;
+			children = (
+				9162FD011EAEF26900DF0E8A /* Controllers */,
+				9162FD021EAEF26900DF0E8A /* Model */,
+				9162FD031EAEF26900DF0E8A /* View */,
+			);
+			path = MyAccount;
+			sourceTree = "<group>";
+		};
+		9162FD011EAEF26900DF0E8A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				91D392D31EB08742009DA352 /* WFMyAccountController.h */,
+				91D392D41EB08742009DA352 /* WFMyAccountController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9162FD021EAEF26900DF0E8A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9162FD031EAEF26900DF0E8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9162FD041EAEF26900DF0E8A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				9162FD051EAEF26900DF0E8A /* AppDelegate.h */,
+				9162FD061EAEF26900DF0E8A /* AppDelegate.m */,
+				9162FD261EAF171B00DF0E8A /* Category */,
+				9162FD071EAEF26900DF0E8A /* Controllers */,
+				9162FD0E1EAEF26900DF0E8A /* Model */,
+				9162FD0F1EAEF26900DF0E8A /* View */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		9162FD071EAEF26900DF0E8A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9162FD0C1EAEF26900DF0E8A /* ZMRootNavgationController.h */,
+				9162FD0D1EAEF26900DF0E8A /* ZMRootNavgationController.m */,
+				91D392CD1EB08541009DA352 /* WFTabBarController.h */,
+				91D392CE1EB08541009DA352 /* WFTabBarController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9162FD0E1EAEF26900DF0E8A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9162FD0F1EAEF26900DF0E8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9162FD101EAEF26900DF0E8A /* SafetyGuarantee */ = {
+			isa = PBXGroup;
+			children = (
+				9162FD111EAEF26900DF0E8A /* Controllers */,
+				9162FD121EAEF26900DF0E8A /* Model */,
+				9162FD131EAEF26900DF0E8A /* View */,
+			);
+			path = SafetyGuarantee;
+			sourceTree = "<group>";
+		};
+		9162FD111EAEF26900DF0E8A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				91D392D01EB08720009DA352 /* WFSafeGuaController.h */,
+				91D392D11EB08720009DA352 /* WFSafeGuaController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		9162FD121EAEF26900DF0E8A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9162FD131EAEF26900DF0E8A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9162FD241EAEFC3300DF0E8A /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				9162FD251EAEFC7400DF0E8A /* WFConfiginfo.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		9162FD261EAF171B00DF0E8A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9162FD271EAF175900DF0E8A /* UIView+WFFrame.h */,
+				9162FD281EAF175900DF0E8A /* UIView+WFFrame.m */,
+				91D392C71EB04FE5009DA352 /* UIColor+WFColor.h */,
+				91D392C81EB04FE5009DA352 /* UIColor+WFColor.m */,
+				91D392CA1EB062E7009DA352 /* UIFont+WFFont.h */,
+				91D392CB1EB062E7009DA352 /* UIFont+WFFont.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A5F185ABB431BC8814CB8D30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FCE1AAA58885903573041CE /* Pods-WorkplaceFinance.debug.xcconfig */,
+				B5590348A776640B8C3A8952 /* Pods-WorkplaceFinance.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		914294701E9CDB4100938BC4 /* WorkplaceFinance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9142949E1E9CDB4100938BC4 /* Build configuration list for PBXNativeTarget "WorkplaceFinance" */;
+			buildPhases = (
+				29BCEB5925043EB255F20C9F /* [CP] Check Pods Manifest.lock */,
+				9142946D1E9CDB4100938BC4 /* Sources */,
+				9142946E1E9CDB4100938BC4 /* Frameworks */,
+				9142946F1E9CDB4100938BC4 /* Resources */,
+				A9C9AB42689AA6738FE173C6 /* [CP] Embed Pods Frameworks */,
+				A0B6FDAFAF560E292F791EC1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorkplaceFinance;
+			productName = "Workplace Finance";
+			productReference = 914294711E9CDB4100938BC4 /* 职钱.app */;
+			productType = "com.apple.product-type.application";
+		};
+		914294891E9CDB4100938BC4 /* WorkplaceFinanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 914294A11E9CDB4100938BC4 /* Build configuration list for PBXNativeTarget "WorkplaceFinanceTests" */;
+			buildPhases = (
+				914294861E9CDB4100938BC4 /* Sources */,
+				914294871E9CDB4100938BC4 /* Frameworks */,
+				914294881E9CDB4100938BC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9142948C1E9CDB4100938BC4 /* PBXTargetDependency */,
+			);
+			name = WorkplaceFinanceTests;
+			productName = "Workplace FinanceTests";
+			productReference = 9142948A1E9CDB4100938BC4 /* WorkplaceFinanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		914294941E9CDB4100938BC4 /* WorkplaceFinanceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 914294A41E9CDB4100938BC4 /* Build configuration list for PBXNativeTarget "WorkplaceFinanceUITests" */;
+			buildPhases = (
+				914294911E9CDB4100938BC4 /* Sources */,
+				914294921E9CDB4100938BC4 /* Frameworks */,
+				914294931E9CDB4100938BC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				914294971E9CDB4100938BC4 /* PBXTargetDependency */,
+			);
+			name = WorkplaceFinanceUITests;
+			productName = "Workplace FinanceUITests";
+			productReference = 914294951E9CDB4100938BC4 /* WorkplaceFinanceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		914294691E9CDB4100938BC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WF;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = tankjoy;
+				TargetAttributes = {
+					914294701E9CDB4100938BC4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4G7ZGW456Y;
+						ProvisioningStyle = Automatic;
+					};
+					914294891E9CDB4100938BC4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 914294701E9CDB4100938BC4;
+					};
+					914294941E9CDB4100938BC4 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 914294701E9CDB4100938BC4;
+					};
+				};
+			};
+			buildConfigurationList = 9142946C1E9CDB4100938BC4 /* Build configuration list for PBXProject "WorkplaceFinance" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 914294681E9CDB4100938BC4;
+			productRefGroup = 914294721E9CDB4100938BC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				914294701E9CDB4100938BC4 /* WorkplaceFinance */,
+				914294891E9CDB4100938BC4 /* WorkplaceFinanceTests */,
+				914294941E9CDB4100938BC4 /* WorkplaceFinanceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9142946F1E9CDB4100938BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9107CCAB1EAF57FC00374B56 /* WFHomeTableHeaderView.xib in Resources */,
+				9162FD1C1EAEF72300DF0E8A /* WFHomeTableViewCell.xib in Resources */,
+				914294841E9CDB4100938BC4 /* LaunchScreen.storyboard in Resources */,
+				914294811E9CDB4100938BC4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914294881E9CDB4100938BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914294931E9CDB4100938BC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29BCEB5925043EB255F20C9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A0B6FDAFAF560E292F791EC1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorkplaceFinance/Pods-WorkplaceFinance-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9C9AB42689AA6738FE173C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WorkplaceFinance/Pods-WorkplaceFinance-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9142946D1E9CDB4100938BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9162FD161EAEF26900DF0E8A /* TwoController.m in Sources */,
+				91D392D51EB08742009DA352 /* WFMyAccountController.m in Sources */,
+				9162FD171EAEF26900DF0E8A /* ZMRootNavgationController.m in Sources */,
+				91D392CC1EB062E7009DA352 /* UIFont+WFFont.m in Sources */,
+				9162FD1F1EAEF75000DF0E8A /* WFHomeTableHeaderView.m in Sources */,
+				9162FD2F1EAF216500DF0E8A /* WFHomeModel.m in Sources */,
+				9162FD2C1EAF204A00DF0E8A /* WFProportionView.m in Sources */,
+				91D392C91EB04FE5009DA352 /* UIColor+WFColor.m in Sources */,
+				9162FD151EAEF26900DF0E8A /* WFHomeController.m in Sources */,
+				9162FD1B1EAEF72300DF0E8A /* WFHomeTableViewCell.m in Sources */,
+				91D392D21EB08720009DA352 /* WFSafeGuaController.m in Sources */,
+				91D392CF1EB08541009DA352 /* WFTabBarController.m in Sources */,
+				914294761E9CDB4100938BC4 /* main.m in Sources */,
+				9162FD141EAEF26900DF0E8A /* AppDelegate.m in Sources */,
+				9162FD291EAF175900DF0E8A /* UIView+WFFrame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914294861E9CDB4100938BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9142948F1E9CDB4100938BC4 /* Workplace_FinanceTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		914294911E9CDB4100938BC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9142949A1E9CDB4100938BC4 /* Workplace_FinanceUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9142948C1E9CDB4100938BC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 914294701E9CDB4100938BC4 /* WorkplaceFinance */;
+			targetProxy = 9142948B1E9CDB4100938BC4 /* PBXContainerItemProxy */;
+		};
+		914294971E9CDB4100938BC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 914294701E9CDB4100938BC4 /* WorkplaceFinance */;
+			targetProxy = 914294961E9CDB4100938BC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		914294821E9CDB4100938BC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				914294831E9CDB4100938BC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9142949C1E9CDB4100938BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9142949D1E9CDB4100938BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9142949F1E9CDB4100938BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FCE1AAA58885903573041CE /* Pods-WorkplaceFinance.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4G7ZGW456Y;
+				ENABLE_BITCODE = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Workplace Finance/WF-Prefix.pch";
+				INFOPLIST_FILE = "Workplace Finance/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"JZNavigationExtension\"",
+					"-l\"KYWaterWaveView\"",
+					"-l\"MJRefresh\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.workplace.zhongmai;
+				PRODUCT_NAME = "职钱";
+				PROVISIONING_PROFILE = "417ff09a-dbac-4658-a162-aec00c331679";
+			};
+			name = Debug;
+		};
+		914294A01E9CDB4100938BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5590348A776640B8C3A8952 /* Pods-WorkplaceFinance.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4G7ZGW456Y;
+				ENABLE_BITCODE = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Workplace Finance/WF-Prefix.pch";
+				INFOPLIST_FILE = "Workplace Finance/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-l\"JZNavigationExtension\"",
+					"-l\"KYWaterWaveView\"",
+					"-l\"MJRefresh\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.workplace.zhongmai;
+				PRODUCT_NAME = "职钱";
+				PROVISIONING_PROFILE = "417ff09a-dbac-4658-a162-aec00c331679";
+			};
+			name = Release;
+		};
+		914294A21E9CDB4100938BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Workplace FinanceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhongMai.com.Workplace-FinanceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkplaceFinance.app/WorkplaceFinance";
+			};
+			name = Debug;
+		};
+		914294A31E9CDB4100938BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Workplace FinanceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhongMai.com.Workplace-FinanceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WorkplaceFinance.app/WorkplaceFinance";
+			};
+			name = Release;
+		};
+		914294A51E9CDB4100938BC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Workplace FinanceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhongMai.com.Workplace-FinanceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Workplace Finance";
+			};
+			name = Debug;
+		};
+		914294A61E9CDB4100938BC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Workplace FinanceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zhongMai.com.Workplace-FinanceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Workplace Finance";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9142946C1E9CDB4100938BC4 /* Build configuration list for PBXProject "WorkplaceFinance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9142949C1E9CDB4100938BC4 /* Debug */,
+				9142949D1E9CDB4100938BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9142949E1E9CDB4100938BC4 /* Build configuration list for PBXNativeTarget "WorkplaceFinance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9142949F1E9CDB4100938BC4 /* Debug */,
+				914294A01E9CDB4100938BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		914294A11E9CDB4100938BC4 /* Build configuration list for PBXNativeTarget "WorkplaceFinanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914294A21E9CDB4100938BC4 /* Debug */,
+				914294A31E9CDB4100938BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		914294A41E9CDB4100938BC4 /* Build configuration list for PBXNativeTarget "WorkplaceFinanceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				914294A51E9CDB4100938BC4 /* Debug */,
+				914294A61E9CDB4100938BC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 914294691E9CDB4100938BC4 /* Project object */;
+}
