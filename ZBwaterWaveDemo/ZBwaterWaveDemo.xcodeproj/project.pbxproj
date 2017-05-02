@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9186A2081EB876D6008ECB7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9186A2071EB876D6008ECB7E /* main.m */; };
+		9186A20B1EB876D6008ECB7E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9186A20A1EB876D6008ECB7E /* AppDelegate.m */; };
+		9186A20E1EB876D6008ECB7E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9186A20D1EB876D6008ECB7E /* ViewController.m */; };
+		9186A2111EB876D6008ECB7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9186A20F1EB876D6008ECB7E /* Main.storyboard */; };
+		9186A2131EB876D6008ECB7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9186A2121EB876D6008ECB7E /* Assets.xcassets */; };
+		9186A2161EB876D6008ECB7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9186A2141EB876D6008ECB7E /* LaunchScreen.storyboard */; };
+		9186A2211EB876D7008ECB7E /* ZBwaterWaveDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9186A2201EB876D7008ECB7E /* ZBwaterWaveDemoTests.m */; };
+		9186A22C1EB876D7008ECB7E /* ZBwaterWaveDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9186A22B1EB876D7008ECB7E /* ZBwaterWaveDemoUITests.m */; };
+		9186A23B1EB87713008ECB7E /* ZBWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9186A23A1EB87713008ECB7E /* ZBWaveView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9186A21D1EB876D7008ECB7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9186A1FB1EB876D6008ECB7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9186A2021EB876D6008ECB7E;
+			remoteInfo = ZBwaterWaveDemo;
+		};
+		9186A2281EB876D7008ECB7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9186A1FB1EB876D6008ECB7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9186A2021EB876D6008ECB7E;
+			remoteInfo = ZBwaterWaveDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9186A2031EB876D6008ECB7E /* ZBwaterWaveDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZBwaterWaveDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9186A2071EB876D6008ECB7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9186A2091EB876D6008ECB7E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9186A20A1EB876D6008ECB7E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9186A20C1EB876D6008ECB7E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9186A20D1EB876D6008ECB7E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9186A2101EB876D6008ECB7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9186A2121EB876D6008ECB7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9186A2151EB876D6008ECB7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9186A2171EB876D6008ECB7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9186A21C1EB876D7008ECB7E /* ZBwaterWaveDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZBwaterWaveDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9186A2201EB876D7008ECB7E /* ZBwaterWaveDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBwaterWaveDemoTests.m; sourceTree = "<group>"; };
+		9186A2221EB876D7008ECB7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9186A2271EB876D7008ECB7E /* ZBwaterWaveDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZBwaterWaveDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9186A22B1EB876D7008ECB7E /* ZBwaterWaveDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBwaterWaveDemoUITests.m; sourceTree = "<group>"; };
+		9186A22D1EB876D7008ECB7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9186A2391EB87713008ECB7E /* ZBWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBWaveView.h; sourceTree = "<group>"; };
+		9186A23A1EB87713008ECB7E /* ZBWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBWaveView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9186A2001EB876D6008ECB7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9186A2191EB876D7008ECB7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9186A2241EB876D7008ECB7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9186A1FA1EB876D6008ECB7E = {
+			isa = PBXGroup;
+			children = (
+				9186A2051EB876D6008ECB7E /* ZBwaterWaveDemo */,
+				9186A21F1EB876D7008ECB7E /* ZBwaterWaveDemoTests */,
+				9186A22A1EB876D7008ECB7E /* ZBwaterWaveDemoUITests */,
+				9186A2041EB876D6008ECB7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9186A2041EB876D6008ECB7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9186A2031EB876D6008ECB7E /* ZBwaterWaveDemo.app */,
+				9186A21C1EB876D7008ECB7E /* ZBwaterWaveDemoTests.xctest */,
+				9186A2271EB876D7008ECB7E /* ZBwaterWaveDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9186A2051EB876D6008ECB7E /* ZBwaterWaveDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9186A2091EB876D6008ECB7E /* AppDelegate.h */,
+				9186A20A1EB876D6008ECB7E /* AppDelegate.m */,
+				9186A20C1EB876D6008ECB7E /* ViewController.h */,
+				9186A20D1EB876D6008ECB7E /* ViewController.m */,
+				9186A2391EB87713008ECB7E /* ZBWaveView.h */,
+				9186A23A1EB87713008ECB7E /* ZBWaveView.m */,
+				9186A20F1EB876D6008ECB7E /* Main.storyboard */,
+				9186A2121EB876D6008ECB7E /* Assets.xcassets */,
+				9186A2141EB876D6008ECB7E /* LaunchScreen.storyboard */,
+				9186A2171EB876D6008ECB7E /* Info.plist */,
+				9186A2061EB876D6008ECB7E /* Supporting Files */,
+			);
+			path = ZBwaterWaveDemo;
+			sourceTree = "<group>";
+		};
+		9186A2061EB876D6008ECB7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9186A2071EB876D6008ECB7E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9186A21F1EB876D7008ECB7E /* ZBwaterWaveDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9186A2201EB876D7008ECB7E /* ZBwaterWaveDemoTests.m */,
+				9186A2221EB876D7008ECB7E /* Info.plist */,
+			);
+			path = ZBwaterWaveDemoTests;
+			sourceTree = "<group>";
+		};
+		9186A22A1EB876D7008ECB7E /* ZBwaterWaveDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9186A22B1EB876D7008ECB7E /* ZBwaterWaveDemoUITests.m */,
+				9186A22D1EB876D7008ECB7E /* Info.plist */,
+			);
+			path = ZBwaterWaveDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9186A2021EB876D6008ECB7E /* ZBwaterWaveDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9186A2301EB876D7008ECB7E /* Build configuration list for PBXNativeTarget "ZBwaterWaveDemo" */;
+			buildPhases = (
+				9186A1FF1EB876D6008ECB7E /* Sources */,
+				9186A2001EB876D6008ECB7E /* Frameworks */,
+				9186A2011EB876D6008ECB7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZBwaterWaveDemo;
+			productName = ZBwaterWaveDemo;
+			productReference = 9186A2031EB876D6008ECB7E /* ZBwaterWaveDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9186A21B1EB876D7008ECB7E /* ZBwaterWaveDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9186A2331EB876D7008ECB7E /* Build configuration list for PBXNativeTarget "ZBwaterWaveDemoTests" */;
+			buildPhases = (
+				9186A2181EB876D7008ECB7E /* Sources */,
+				9186A2191EB876D7008ECB7E /* Frameworks */,
+				9186A21A1EB876D7008ECB7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9186A21E1EB876D7008ECB7E /* PBXTargetDependency */,
+			);
+			name = ZBwaterWaveDemoTests;
+			productName = ZBwaterWaveDemoTests;
+			productReference = 9186A21C1EB876D7008ECB7E /* ZBwaterWaveDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9186A2261EB876D7008ECB7E /* ZBwaterWaveDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9186A2361EB876D7008ECB7E /* Build configuration list for PBXNativeTarget "ZBwaterWaveDemoUITests" */;
+			buildPhases = (
+				9186A2231EB876D7008ECB7E /* Sources */,
+				9186A2241EB876D7008ECB7E /* Frameworks */,
+				9186A2251EB876D7008ECB7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9186A2291EB876D7008ECB7E /* PBXTargetDependency */,
+			);
+			name = ZBwaterWaveDemoUITests;
+			productName = ZBwaterWaveDemoUITests;
+			productReference = 9186A2271EB876D7008ECB7E /* ZBwaterWaveDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9186A1FB1EB876D6008ECB7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = zhubo;
+				TargetAttributes = {
+					9186A2021EB876D6008ECB7E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					9186A21B1EB876D7008ECB7E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9186A2021EB876D6008ECB7E;
+					};
+					9186A2261EB876D7008ECB7E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9186A2021EB876D6008ECB7E;
+					};
+				};
+			};
+			buildConfigurationList = 9186A1FE1EB876D6008ECB7E /* Build configuration list for PBXProject "ZBwaterWaveDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9186A1FA1EB876D6008ECB7E;
+			productRefGroup = 9186A2041EB876D6008ECB7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9186A2021EB876D6008ECB7E /* ZBwaterWaveDemo */,
+				9186A21B1EB876D7008ECB7E /* ZBwaterWaveDemoTests */,
+				9186A2261EB876D7008ECB7E /* ZBwaterWaveDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9186A2011EB876D6008ECB7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9186A2161EB876D6008ECB7E /* LaunchScreen.storyboard in Resources */,
+				9186A2131EB876D6008ECB7E /* Assets.xcassets in Resources */,
+				9186A2111EB876D6008ECB7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9186A21A1EB876D7008ECB7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9186A2251EB876D7008ECB7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9186A1FF1EB876D6008ECB7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9186A20E1EB876D6008ECB7E /* ViewController.m in Sources */,
+				9186A23B1EB87713008ECB7E /* ZBWaveView.m in Sources */,
+				9186A20B1EB876D6008ECB7E /* AppDelegate.m in Sources */,
+				9186A2081EB876D6008ECB7E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9186A2181EB876D7008ECB7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9186A2211EB876D7008ECB7E /* ZBwaterWaveDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9186A2231EB876D7008ECB7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9186A22C1EB876D7008ECB7E /* ZBwaterWaveDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9186A21E1EB876D7008ECB7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9186A2021EB876D6008ECB7E /* ZBwaterWaveDemo */;
+			targetProxy = 9186A21D1EB876D7008ECB7E /* PBXContainerItemProxy */;
+		};
+		9186A2291EB876D7008ECB7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9186A2021EB876D6008ECB7E /* ZBwaterWaveDemo */;
+			targetProxy = 9186A2281EB876D7008ECB7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9186A20F1EB876D6008ECB7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9186A2101EB876D6008ECB7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9186A2141EB876D6008ECB7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9186A2151EB876D6008ECB7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9186A22E1EB876D7008ECB7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9186A22F1EB876D7008ECB7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9186A2311EB876D7008ECB7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZBwaterWaveDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhubo.ZBwaterWaveDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9186A2321EB876D7008ECB7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZBwaterWaveDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhubo.ZBwaterWaveDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9186A2341EB876D7008ECB7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZBwaterWaveDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhubo.ZBwaterWaveDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZBwaterWaveDemo.app/ZBwaterWaveDemo";
+			};
+			name = Debug;
+		};
+		9186A2351EB876D7008ECB7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZBwaterWaveDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhubo.ZBwaterWaveDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZBwaterWaveDemo.app/ZBwaterWaveDemo";
+			};
+			name = Release;
+		};
+		9186A2371EB876D7008ECB7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZBwaterWaveDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhubo.ZBwaterWaveDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZBwaterWaveDemo;
+			};
+			name = Debug;
+		};
+		9186A2381EB876D7008ECB7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZBwaterWaveDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhubo.ZBwaterWaveDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZBwaterWaveDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9186A1FE1EB876D6008ECB7E /* Build configuration list for PBXProject "ZBwaterWaveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9186A22E1EB876D7008ECB7E /* Debug */,
+				9186A22F1EB876D7008ECB7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9186A2301EB876D7008ECB7E /* Build configuration list for PBXNativeTarget "ZBwaterWaveDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9186A2311EB876D7008ECB7E /* Debug */,
+				9186A2321EB876D7008ECB7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9186A2331EB876D7008ECB7E /* Build configuration list for PBXNativeTarget "ZBwaterWaveDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9186A2341EB876D7008ECB7E /* Debug */,
+				9186A2351EB876D7008ECB7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9186A2361EB876D7008ECB7E /* Build configuration list for PBXNativeTarget "ZBwaterWaveDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9186A2371EB876D7008ECB7E /* Debug */,
+				9186A2381EB876D7008ECB7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9186A1FB1EB876D6008ECB7E /* Project object */;
+}
