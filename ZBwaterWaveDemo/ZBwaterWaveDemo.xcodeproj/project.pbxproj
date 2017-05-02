@@ -15,8 +15,8 @@
 		9186A2161EB876D6008ECB7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9186A2141EB876D6008ECB7E /* LaunchScreen.storyboard */; };
 		9186A2211EB876D7008ECB7E /* ZBwaterWaveDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9186A2201EB876D7008ECB7E /* ZBwaterWaveDemoTests.m */; };
 		9186A22C1EB876D7008ECB7E /* ZBwaterWaveDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9186A22B1EB876D7008ECB7E /* ZBwaterWaveDemoUITests.m */; };
-		9186A23B1EB87713008ECB7E /* ZBWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9186A23A1EB87713008ECB7E /* ZBWaveView.m */; };
 		9186A23E1EB888AF008ECB7E /* 2017-05-02 17_15_17.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9186A23D1EB888AF008ECB7E /* 2017-05-02 17_15_17.gif */; };
+		9186A2421EB89300008ECB7E /* ZBWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9186A2411EB89300008ECB7E /* ZBWaveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,9 +53,9 @@
 		9186A2271EB876D7008ECB7E /* ZBwaterWaveDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZBwaterWaveDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9186A22B1EB876D7008ECB7E /* ZBwaterWaveDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZBwaterWaveDemoUITests.m; sourceTree = "<group>"; };
 		9186A22D1EB876D7008ECB7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9186A2391EB87713008ECB7E /* ZBWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZBWaveView.h; path = ../ZBWaveView.h; sourceTree = "<group>"; };
-		9186A23A1EB87713008ECB7E /* ZBWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZBWaveView.m; path = ../ZBWaveView.m; sourceTree = "<group>"; };
 		9186A23D1EB888AF008ECB7E /* 2017-05-02 17_15_17.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "2017-05-02 17_15_17.gif"; sourceTree = "<group>"; };
+		9186A2401EB89300008ECB7E /* ZBWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBWaveView.h; sourceTree = "<group>"; };
+		9186A2411EB89300008ECB7E /* ZBWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZBWaveView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,7 +110,7 @@
 				9186A20A1EB876D6008ECB7E /* AppDelegate.m */,
 				9186A20C1EB876D6008ECB7E /* ViewController.h */,
 				9186A20D1EB876D6008ECB7E /* ViewController.m */,
-				9186A23C1EB87967008ECB7E /* WaterView */,
+				9186A23F1EB892F9008ECB7E /* ZBWaterView */,
 				9186A20F1EB876D6008ECB7E /* Main.storyboard */,
 				9186A2121EB876D6008ECB7E /* Assets.xcassets */,
 				9186A2141EB876D6008ECB7E /* LaunchScreen.storyboard */,
@@ -147,13 +147,13 @@
 			path = ZBwaterWaveDemoUITests;
 			sourceTree = "<group>";
 		};
-		9186A23C1EB87967008ECB7E /* WaterView */ = {
+		9186A23F1EB892F9008ECB7E /* ZBWaterView */ = {
 			isa = PBXGroup;
 			children = (
-				9186A2391EB87713008ECB7E /* ZBWaveView.h */,
-				9186A23A1EB87713008ECB7E /* ZBWaveView.m */,
+				9186A2401EB89300008ECB7E /* ZBWaveView.h */,
+				9186A2411EB89300008ECB7E /* ZBWaveView.m */,
 			);
-			path = WaterView;
+			path = ZBWaterView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,7 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9186A20E1EB876D6008ECB7E /* ViewController.m in Sources */,
-				9186A23B1EB87713008ECB7E /* ZBWaveView.m in Sources */,
+				9186A2421EB89300008ECB7E /* ZBWaveView.m in Sources */,
 				9186A20B1EB876D6008ECB7E /* AppDelegate.m in Sources */,
 				9186A2081EB876D6008ECB7E /* main.m in Sources */,
 			);
