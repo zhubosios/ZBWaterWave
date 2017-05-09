@@ -7,8 +7,7 @@
 //
 
 #import "ZBWaveView.h"
-#import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
+
 @implementation ZBWaveView{
     CGFloat _waterWaveHeight;
     CGFloat _waterWaveWidth;
